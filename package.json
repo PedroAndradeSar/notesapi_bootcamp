@@ -1,0 +1,17 @@
+{
+  "name": "desafioUm",
+  "version": "1",
+  "description": "Aula dia 17/11/2021",
+  "main": "index.js",
+  "license": "MIT",
+
+  "scripts":{
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
