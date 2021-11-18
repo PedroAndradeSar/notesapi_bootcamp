@@ -7,17 +7,17 @@ router.get("/", function (req,res){
 });
 
 router.post("/", function (req, res) {
-    console.log({});
+    res.log({});
 
 })
 
-router.put("/.id?", function (req, res) {
-    console.log({});
+router.put("/.id", function (req, res) {
+    res.log({});
 
 })
 
-router.delete("/.id?", function (req, res) {
-    console.log({});
+router.delete("/.id", function (req, res) {
+    res.log({});
 
 })
 
